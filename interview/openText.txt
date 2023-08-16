@@ -1,0 +1,175 @@
+
+
+Banking - client 
+
+// When they will choose - initial configurations 
+// no cannot switch 
+// schema and all is given 
+
+
+
+
+
+// Write a class which will take the connection strings 
+// based on that do operations 
+
+MsSQL - DbContext , IConnectionManager
+
+MySQL - DbContext , IConnectionManager
+
+Oracle - DbContext, IConnectionManager
+
+IConnectionManager ConnectionManager () - manager for all the connections - Implement interface IConnectionManager - connect 
+// Read the configuration 
+// return the instance of the either of the DB classes 
+
+// Initially 
+// Instance the connection manager, return the instance of the class with db context 
+
+Users -> connect to databse 
+
+invoke the connectionmanger -> give me instance -> IConnectionManager connect to database 
+
+// internal 
+// namespace 
+// 
+
+// Unit test is outside the assembly 
+// 
+
+// code is access ing static class 
+// read some string from file 
+// Wrapper class - calling static class 
+// We can test this class - 
+
+// read file operation - mock class 
+// 
+
+
+
+public class MyClass {
+
+    // unit 
+    public string myMethod(){
+        return StaticClass.Test() // reads the file content and returns that. custom file 
+    }
+}
+
+// xUnit 
+// MoQ
+
+
+// setup(MyClass, myMethod, )
+// 
+// setup(classname, method, returnTYpe)
+
+public class MyClass2 {
+
+    // unit 
+    public string myMethod2(){
+        return new MyClass().myMethod()
+    }
+}
+
+// create a custom type and make it immutable 
+
+// Problem 
+// array of positive integers 
+// min number of bits required to represent the min binary 
+// 
+
+// Problem 
+string of - a-z A-Z 
+toggle char of string 
+do not use any inbuilt functions 
+
+
+input 
+AbCd
+
+output 
+aBcD
+
+// can i use ascii number 
+// A-Z - 1-26 
+// 50 
+// a-z - 50-86 
+// iterate on each char 
+// 
+
+
+// A - 1 - if number in range -1-26 - Upper case -> 1 + 50 
+// 52 char 
+// 
+map - { a: 'A',   }
+// ascii(char) - acii(lowecase((char)))
+
+// domonstrate atomic process 
+
+ACID - 
+
+
+START TRANSACTION 
+
+
+UPDATE tableName 
+set colName = ''
+where colname = ''
+
+
+UPDATE tableName 
+set colName = ''
+where colname = ''
+
+SELECT name into @varName where colname= ''
+
+IF @varName == '' THEN 
+    SIGNAL MY_SQL_PROC_FAILURE;
+END IF;
+
+
+
+END TTRANSACTION 
+
+
+// web application  my sql 
+no acces to source code 
+// db admin - top 5 slowest running queries 
+// EXPLAIN result 
+// enable slow query performance 
+// look 
+
+// web api 
+autorizations header - base 64(username:password)
+
+based on user and password the hash is matching 
+
+// sensitive data 
+// 1. md5 (hash of your data) - one way to go 
+// 2. aes_encryption() - 
+// 3. encoding - 
+// 4. 
+
+
+// app abc.com 
+// xyz.com - aloow domains - abc.com (CORS)
+// Not aloow 
+
+// GET request - request will be blocked you cors 
+// POST request - Not sure - 
+
+// server - user-agenet {req - user-agenet os/browser}
+// 
+
+// load an url 
+// nothing appears - white 
+// - console, networks - 500, // data not - cming application - 
+// 
+
+// AWS
+
+1. strong dotnet 
+2. web api 
+3. full stack dotnet 
+4. 
+
